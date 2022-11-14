@@ -1,0 +1,17 @@
+.child {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.input-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.not {
+  margin-top: 10px;
+}

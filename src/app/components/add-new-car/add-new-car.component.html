@@ -1,0 +1,22 @@
+<div class="parent">
+  <form class="child" [formGroup]="carForm">
+    <h2>Add New Car</h2>
+    <div class="form-group">
+      <label>Brand</label>
+      <input formControlName="brand" type="text" class="form-control" id="brandName" aria-describedby="emailHelp" placeholder="Enter car brand">
+    </div>
+    <div class="form-group">
+      <label>Model</label>
+      <input formControlName="model" type="text" class="form-control" id="modelName" placeholder="Enter car model">
+    </div>
+    <div class="form-group">
+      <label>Year</label>
+      <input formControlName="year" type="text" class="form-control" id="year" placeholder="Enter car year">
+    </div>
+    <div class="form-group">
+      <label>Engine</label>
+      <input formControlName="engine" type="text" class="form-control" id="engine" placeholder="Enter car engine">
+    </div>
+    <button (click)="onSubmit()" class="btn btn-primary child">Submit</button>
+  </form>
+</div>
